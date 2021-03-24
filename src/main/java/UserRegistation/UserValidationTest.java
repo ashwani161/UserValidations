@@ -95,6 +95,8 @@ public class UserValidationTest {
 			}
 	}
 
+	
+	
 	@Test
 	public void givenString_Whenpasswordrules_ShouldReturnFalse() {
 		String testString = "";

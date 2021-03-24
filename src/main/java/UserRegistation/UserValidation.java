@@ -19,6 +19,7 @@ public static boolean validatePattern(String argument, String regExp) throws Use
 			return true;
 		}else {
 			throw new UserValidationException("please enter valid input");
+			
 		}
 }
 public static void ifValidOuput(String regExpString, String[] testSamples) {
